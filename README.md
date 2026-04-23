@@ -2,7 +2,7 @@
 
 ---
 
-###markdown
+
 # 🚀 Vision.12 | 12-Week Year Productivity Dashboard
 
 **Vision.12** is a high-performance productivity system built to help individuals bridge the gap between "knowing" and "doing". Inspired by the **"12 Week Year"** methodology, this app compresses your annual goals into intense 12-week execution cycles.
