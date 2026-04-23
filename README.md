@@ -64,9 +64,6 @@ The core of this project is **Execution**. By focusing on a 12-week horizon, the
 
 ---
 
-**Built with ❤️ for better productivity.**
-```
 
----
 
 
