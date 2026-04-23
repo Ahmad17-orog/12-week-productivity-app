@@ -69,14 +69,4 @@ The core of this project is **Execution**. By focusing on a 12-week horizon, the
 
 ---
 
-### ملاحظات إضافية:
-1.  **لماذا هذا الأمر مهم؟** لقد أضفت تفسيراً بسيطاً تحت الأمر البرمجي يوضح أنه مخصص لـ "TypeScript compiler"، وهذا يعطي انطباعاً بأنك مطور فاهم للمشكلة وحلها الجذري.
-2.  **التنسيق:** استخدمت لغة الـ Markdown ليكون الملف منسقاً بشكل جميل عند رفعه على GitHub، مع وجود مربعات رمادية للأوامر (Code Blocks).
-3.  **الخطوة القادمة:** بعد حفظ الملف، جرب رفعه باستخدام:
-    ```bash
-    git add README.md
-    git commit -m "Docs: Add comprehensive README with troubleshooting guide"
-    git push origin main
-    ```
 
-هل هناك أي تفصيل تقني آخر تود إضافته قبل الرفع النهائي؟
