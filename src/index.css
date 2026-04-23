@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-electric-lime: #D9F967;
+  --color-void: #0C0C0C;
+  --color-sage: #A1AC97;
+  --color-zinc-elevated: #18181B;
+  --color-zinc-border: #27272A;
+
+  --color-main: var(--text-main);
+  --color-muted: var(--text-muted);
+  --color-surface: var(--bg-card);
+  --color-border-dim: var(--border-color);
+
+  --radius-bento: 40px;
+}
+
+:root {
+  --bg-app: #0C0C0C;
+  --bg-card: rgba(255, 255, 255, 0.05);
+  --text-main: #FFFFFF;
+  --text-muted: rgba(255, 255, 255, 0.4);
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+
+:root.light {
+  --bg-app: #A1AC97;
+  --bg-card: #FFFFFF;
+  --text-main: #0C0C0C;
+  --text-muted: rgba(12, 12, 12, 0.4);
+  --border-color: rgba(12, 12, 12, 0.05);
+}
+
+@layer base {
+  body {
+    background-color: var(--bg-app);
+    color: var(--text-main);
+    @apply font-sans antialiased transition-colors duration-300;
+  }
+}
+
+.glass-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(20px);
+  @apply rounded-[40px] overflow-hidden transition-all duration-300;
+}
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scroll-bar {
+  width: 8px;
+}
+::-webkit-scroll-bar-track {
+  background-color: var(--bg-app);
+}
+::-webkit-scroll-bar-thumb {
+  @apply bg-zinc-border/20 rounded-full hover:bg-zinc-border/40 transition-colors;
+}

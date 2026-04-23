@@ -1,0 +1,151 @@
+{
+  "tasks": [
+    {
+      "id": "t6-q1-w1",
+      "title": "Learn Tailwind CSS v4 Fundamentals",
+      "completed": true,
+      "priority": "high",
+      "dayIndex": 0,
+      "weekIndex": 0,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    },
+    {
+      "id": "t7-q1-w1",
+      "title": "Build Bento Grid UI Layout",
+      "completed": false,
+      "priority": "high",
+      "dayIndex": 1,
+      "weekIndex": 0,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    },
+    {
+      "id": "t8-q1-w1",
+      "title": "Implement LocalStorage logic",
+      "completed": false,
+      "priority": "medium",
+      "dayIndex": 2,
+      "weekIndex": 0,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    },
+    {
+      "id": "t9-q1-w2",
+      "title": "Refactor React Components for Performance",
+      "completed": true,
+      "priority": "high",
+      "dayIndex": 0,
+      "weekIndex": 1,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    },
+    {
+      "id": "t10-q1-w2",
+      "title": "Set up Lucide-React dynamic icons",
+      "completed": true,
+      "priority": "medium",
+      "dayIndex": 1,
+      "weekIndex": 1,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    },
+    {
+      "id": "t11-q1-w2",
+      "title": "Design Custom Modal System",
+      "completed": true,
+      "priority": "high",
+      "dayIndex": 2,
+      "weekIndex": 1,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    },
+    {
+      "id": "t12-q1-w3",
+      "title": "Integrate Data Export to JSON feature",
+      "completed": false,
+      "priority": "medium",
+      "dayIndex": 0,
+      "weekIndex": 2,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    },
+    {
+      "id": "t13-q1-w3",
+      "title": "Optimize Responsive View for Mobile",
+      "completed": true,
+      "priority": "high",
+      "dayIndex": 1,
+      "weekIndex": 2,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    },
+    {
+      "id": "t14-q1-w3",
+      "title": "Write 500 words for the project case study",
+      "completed": true,
+      "priority": "low",
+      "dayIndex": 2,
+      "weekIndex": 2,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    },
+    {
+      "id": "t15-q1-w4",
+      "title": "Research Advanced Framer Motion animations",
+      "completed": false,
+      "priority": "medium",
+      "dayIndex": 0,
+      "weekIndex": 3,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    },
+    {
+      "id": "t16-q1-w4",
+      "title": "Update README.md with technical specs",
+      "completed": true,
+      "priority": "low",
+      "dayIndex": 1,
+      "weekIndex": 3,
+      "quarterIndex": 1,
+      "yearIndex": 2026
+    }
+  ],
+  "goals": [
+    {
+      "id": "g1",
+      "title": "Master Frontend Development",
+      "targetProgress": 100,
+      "currentProgress": 78,
+      "color": "#DFFF5E"
+    },
+    {
+      "id": "g2",
+      "title": "Build Personal Brand on LinkedIn",
+      "targetProgress": 100,
+      "currentProgress": 30,
+      "color": "#60A5FA"
+    }
+  ],
+  "badges": [
+    {
+      "id": "starter",
+      "name": "Quick Starter",
+      "icon": "Zap",
+      "unlockedAt": "2026-04-01T08:00:00.000Z",
+      "condition": "Complete your first task"
+    },
+    {
+      "id": "disciplined",
+      "name": "Highly Disciplined",
+      "icon": "ShieldCheck",
+      "unlockedAt": "2026-04-23T12:36:33.198Z",
+      "condition": "Complete tasks for 5 consecutive days"
+    }
+  ],
+  "streak": 16,
+  "lastCompletedDate": "2026-04-23T13:09:33.804Z",
+  "isDarkMode": false,
+  "currentYear": 2026,
+  "currentQuarter": 1
+}
